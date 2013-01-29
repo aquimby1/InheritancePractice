@@ -11,8 +11,8 @@ package myinterface;
 public class SalaryPlusBonusEmployee extends SalariedEmployee {
     private double bonus;
 
-    public SalaryPlusBonusEmployee(double bonus, double salarie) {
-        super(salarie);
+    public SalaryPlusBonusEmployee(double bonus, String name, int age, String job, String department, double salarie) {
+        super(name, age, job, department, salarie);
         this.bonus = bonus;
     }
 
