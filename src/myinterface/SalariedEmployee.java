@@ -2,20 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package myabstract;
+package myinterface;
 
 /**
  *
  * @author AJ
  */
-public class SalariedEmployee extends Employee {
+public class SalariedEmployee  {
     private double salarie;
 
-    public SalariedEmployee(double salarie, String name, int age, String job, String department) {
-        super(name, age, job, department);
+    public SalariedEmployee(double salarie) {
         this.salarie = salarie;
     }
-
 
     public double getSalarie() {
         return salarie;

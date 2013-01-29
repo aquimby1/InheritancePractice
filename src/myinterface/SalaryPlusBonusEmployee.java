@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package myabstract;
+package myinterface;
 
 /**
  *
@@ -11,8 +11,8 @@ package myabstract;
 public class SalaryPlusBonusEmployee extends SalariedEmployee {
     private double bonus;
 
-    public SalaryPlusBonusEmployee(double bonus, double salarie, String name, int age, String job, String department) {
-        super(salarie, name, age, job, department);
+    public SalaryPlusBonusEmployee(double bonus, double salarie) {
+        super(salarie);
         this.bonus = bonus;
     }
 
